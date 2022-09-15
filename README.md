@@ -11,3 +11,11 @@ Le convertisseur permet de choisir un montant et de le convertir en différentes
 - Champ de recherche de devises
 - Mise en forme scss
 
+## Use it
+
+1/ Download repository
+
+Terminal commands:
+
+2/ yarn (download packages)
+3/ yarn start (start local server)
