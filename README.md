@@ -13,9 +13,9 @@ Le convertisseur permet de choisir un montant et de le convertir en différentes
 
 ## Use it
 
-1/ Download repository
+- 1/ Download repository
 
 Terminal commands:
 
-2/ yarn (download packages)
-3/ yarn start (start local server)
+- 2/ yarn (download packages)
+- 3/ yarn start (start local server)
