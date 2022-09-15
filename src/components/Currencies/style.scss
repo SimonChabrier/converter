@@ -1,0 +1,43 @@
+@use 'src/styles/vars';
+
+.currencies {
+
+  background-color: vars.$color-light;
+  color: vars.$color-main;
+  text-align: left;
+
+  max-height: 300px;
+  overflow-y: auto;
+
+  &__search {
+  padding: vars.$gutter vars.$gutter ;
+   width: 100%;
+   border: none;
+   color: vars.$color-main;
+   font-family: inherit;
+
+   //pseudo element
+   &::placeholder{
+    color: vars.$color-alt;
+   }
+
+  }
+
+}
+
+.currency {
+  font-weight: vars.$weight-regular;
+  padding: vars.$gutter vars.$gutter;
+  border-top: solid 1px vars.$color-main;
+  // pour voir le pointer format "doigt" au survol comme sur un lien
+  cursor: pointer;
+  // cette transition sera appliqué en quittant le survol (retour état initial)
+  // ease-in est une fonction de timming (= courbe de transition)
+  transition: background-color vars.$transition-slow ease-in;
+
+  &:hover {
+    background-color: vars.$color-alt;
+    // celle-ci au survol
+    transition: background-color vars.$transition-fast ease-out;
+  }
+}

@@ -1,0 +1,31 @@
+@use 'src/styles/vars';
+
+.base-amount {
+  background-color: vars.$color-main;
+  padding: 2 * vars.$gutter vars.$gutter;
+  color: vars.$color-light;
+
+  &__title {
+    font-weight: vars.$weight-bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5 * vars.$gutter;
+  }
+
+  &__amount {
+    font-weight: vars.$weight-light;
+  }
+
+  &__value {
+    background: transparent;
+    border: 0;
+    font: inherit;
+    color: vars.$color-light;
+    width: 3.5rem;
+    margin-right: vars.$gutter/2;
+
+    &:focus {
+      box-shadow: inset 3px 3px 3px rgba(0, 0, 0, .5);
+    }
+  }
+
+}

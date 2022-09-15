@@ -1,0 +1,19 @@
+// Déclarations des variables
+// format -> $nomDeLaVariable : valeur;
+
+// on définit un jeu de couleurs
+$color-main: #bb5432;
+$color-alt: #f1c5b6;
+$color-light: #ffffff;
+
+// un jeu de graisses
+$weight-light: 300;
+$weight-regular: 500;
+$weight-bold: 700;
+
+// quelques vitesse
+$transition-fast: 0.2s;
+$transition-slow: 1s;
+
+// un espacement de base ("goutière")
+$gutter: 0.8rem;

@@ -1,0 +1,13 @@
+@use 'reset';
+// on importe (intelligemment) le module vars (qui correspond au contenu de _vars.scss)
+// le _ avant vars das le nom du fichier est une convention de nommage 
+@use 'vars';
+
+body {
+  font-family: 'spartan', sans-serif;
+  // pour se servir d'une variable définit dans un module
+  // on utilise la notation : nom_du_module.$nom_de_la_variable
+  // notre module s'apelle: 'vars' : voir -> @use 'vars';
+  background-color: vars.$color-alt;
+}
+

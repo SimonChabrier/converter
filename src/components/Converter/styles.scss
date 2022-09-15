@@ -1,0 +1,10 @@
+@use 'src/styles/vars';
+
+.converter {
+  // avec max-with, si on a la place, c'est pixel,
+  // sinon, c'est la taille disponible (largeur de la fenêtre)
+  max-width: 300px;
+  margin: vars.$gutter auto;
+  text-align: center;
+}
+
